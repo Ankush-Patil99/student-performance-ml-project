@@ -112,10 +112,57 @@ See:
 📊 `plot_model_comparison.png`
 
 ---
-
 ## ▶️ How to Run the Project
 
+### 1️⃣ Set up the environment
+Create and activate a virtual environment (recommended):
 
+```bash
+python -m venv .venv
+# Windows
+.venv\Scripts\activate
+# Mac / Linux
+source .venv/bin/activate
+```
+install all requiered dependencies- 
+```
+pip install -r requirements.txt
+```
+### 2️⃣ Run the notebook-
+`jupyter notebook notebook/student_performance_ml_project.ipynb`
+### 3️⃣ Project File Paths (auto-recognized)
+
+The notebook automatically loads and saves files in the following folders:
+
+- **data_raw/** — raw dataset  
+- **data_processed/** — scaled data, PCA outputs  
+- **plots/** — all visualizations and graphs  
+- **predictions/** — model prediction CSVs  
+- **results/** — evaluation metrics, comparison tables  
+- **models/** — encoders, scaler, and saved preprocessing objects  
+No manual path changes are required.
+
+### 4️⃣ (Optional) Reproduce Everything Automatically
+
+If you have **papermill** installed, you can regenerate all results, plots, and outputs with a single command:
+
+`bash
+./run_all.sh`
+This will create a fully executed notebook at: **notebook/executed_student_performance.ipynb** 
+
+
+---
+
+### 5️⃣ (Optional) Run in Google Colab
+
+```markdown
+
+1. Open Google Colab  
+2. Upload the main notebook:  **notebook/student_performance_ml_project.ipynb**
+3. Upload the **data_raw/** folder  
+4. Run all cells
+```
+All other folders (`data_processed`, `plots`, `models`, etc.) will be created automatically by the notebook.
 
 
 
@@ -180,8 +227,9 @@ Here are several extensions planned for the next iteration:
 **Ankush Patil**  
 📍 India  
 
-- GitHub: https://github.com/Ankush2005  
-- Email: ankushpatil347@gmail.com  
+📧 Email: ankpatil1203@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/ankush-patil-48989739a
+🐙 GitHub: https://github.com/Ankush-Patil99  
 
 Feel free to reach out for collaborations or suggestions.
 
