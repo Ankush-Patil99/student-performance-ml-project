@@ -62,19 +62,22 @@ The goal is to demonstrate **deep ML understanding**, not deployment — includi
 
 To keep the repository clean and easy to navigate, files are grouped into logical folders:
 
-- 📘 **Notebook** → [`student_performance_ml_project.ipynb`](notebook/student_performance_ml_project.ipynb)
-
-- 📊 **Results** (metrics, comparison tables) → [`results/`](results/)
-- 📈 **Plots** (visual outputs) → [`plots/`](plots/)
-- 📄 **Predictions** → [`predictions/`](predictions/)
-- 🗂 **Raw Data** → [`data_raw/`](data_raw/)
-- 🧮 **Processed Data** → [`data_processed/`](data_processed/)
-- 🔧 **Models & Encoders** → [`models/`](models/)
-- 📦 **All Outputs ZIP** → [`student_performance_project_outputs.zip`](student_performance_project_outputs.zip)
-
-> ✔ This keeps the README clean  
-> ✔ Readers can navigate instantly with links  
-> ✔ Avoids long directory trees that clutter the page  
+- 📘 **Notebook** →  
+  [`student_performance_ml_project.ipynb`](student-performance-ml-project/notebook/student_performance_ml_project.ipynb)
+- 📊 **Results** (evaluation tables, model comparisons) →  
+  [`results/`](student-performance-ml-project/results/)
+- 📈 **Plots** (all visualizations: heatmap, PCA, model comparison, etc.) →  
+  [`plots/`](student-performance-ml-project/plots/)
+- 📄 **Predictions** (CSV predictions from each model) →  
+  [`predictions/`](student-performance-ml-project/predictions/)
+- 🗂 **Raw Data** (original dataset split into features & target) →  
+  [`data_raw/`](student-performance-ml-project/data_raw/)
+- 🧮 **Processed Data** (scaled data, PCA outputs, train/test splits) →  
+  [`data_processed/`](student-performance-ml-project/data_processed/)
+- 🔧 **Models & Encoders** (saved scaler and label encoder .pkl files) →  
+  [`models/`](student-performance-ml-project/models/)
+- 📦 **All Outputs ZIP** →  
+  [`student_performance_project_outputs.zip`](student-performance-ml-project/student_performance_project_outputs.zip)
 
 
 ---
