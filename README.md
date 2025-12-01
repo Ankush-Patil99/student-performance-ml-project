@@ -242,9 +242,8 @@ Here are several extensions planned for the next iteration:
 **Ankush Patil**  
 📍 India  
 
-📧 Email: ankpatil1203@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/ankush-patil-48989739a
-🐙 GitHub: https://github.com/Ankush-Patil99  
+📧 **Email:** ankpatil1203@gmail.com  
+🔗 **LinkedIn:** https://www.linkedin.com/in/ankush-patil-48989739a  
+🐙 **GitHub:** https://github.com/Ankush-Patil99  
 
 Feel free to reach out for collaborations or suggestions.
-
