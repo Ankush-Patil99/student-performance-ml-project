@@ -1,0 +1,2 @@
+Best Params,MSE,R2
+"{'max_depth': 15, 'max_features': None, 'min_samples_leaf': 2, 'min_samples_split': 2}",18.363790644211388,0.9504464970357541

@@ -1,0 +1,2 @@
+Model,Estimators,Learning_Rate,MSE,R2
+AdaBoost,200,0.1,54.74805129935243,0.8522659196616185

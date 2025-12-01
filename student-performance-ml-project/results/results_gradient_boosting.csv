@@ -1,0 +1,2 @@
+Model,Estimators,Learning_Rate,Max_Depth,MSE,R2
+Gradient Boosting,300,0.05,3,7.654834259949416,0.9793439241635667
