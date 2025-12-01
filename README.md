@@ -62,7 +62,7 @@ The goal is to demonstrate **deep ML understanding**, not deployment — includi
 
 To keep the repository clean and easy to navigate, files are grouped into logical folders:
 
-- - 📘 **Notebook** → [`student_performance_ml_project.ipynb`](notebook/student_performance_ml_project.ipynb)
+- 📘 **Notebook** → [`student_performance_ml_project.ipynb`](notebook/student_performance_ml_project.ipynb)
 
 - 📊 **Results** (metrics, comparison tables) → [`results/`](results/)
 - 📈 **Plots** (visual outputs) → [`plots/`](plots/)
