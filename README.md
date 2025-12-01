@@ -14,6 +14,18 @@ The goal is to demonstrate **deep ML understanding**, not deployment — includi
 - Strong result evaluation with R², MSE, and visual analysis  
 - Organized outputs: results, plots, predictions, models, processed data  
 
+## 📑 Table of Contents
+- [Project Highlights](#-project-highlights)
+- [Dataset](#-dataset)
+- [Algorithms Implemented](#-algorithms-implemented)
+- [Project Structure](#-project-structure)
+- [Visualizations Included](#-visualizations-included)
+- [Results Summary](#-results-summary)
+- [How to Run the Project](#how-to-run-the-project)
+- [Key Learnings Demonstrated](#-key-learnings-demonstrated)
+- [Future Work](#-future-work)
+- [Author](#-author)
+
 
 ---
 
@@ -128,12 +140,14 @@ python -m venv .venv
 # Mac / Linux
 source .venv/bin/activate
 ```
-install all requiered dependencies- 
-```
+install all requiered dependencies:
+```bash
 pip install -r requirements.txt
 ```
-### 2️⃣ Run the notebook-
-`jupyter notebook notebook/student_performance_ml_project.ipynb`
+### 2️⃣ Run the notebook
+```bash
+jupyter notebook notebook/student_performance_ml_project.ipynb
+```
 ### 3️⃣ Project File Paths (auto-recognized)
 
 The notebook automatically loads and saves files in the following folders:
@@ -144,28 +158,30 @@ The notebook automatically loads and saves files in the following folders:
 - **predictions/** — model prediction CSVs  
 - **results/** — evaluation metrics, comparison tables  
 - **models/** — encoders, scaler, and saved preprocessing objects  
+
 No manual path changes are required.
 
 ### 4️⃣ (Optional) Reproduce Everything Automatically
 
 If you have **papermill** installed, you can regenerate all results, plots, and outputs with a single command:
 
-`bash
-./run_all.sh`
-This will create a fully executed notebook at: **notebook/executed_student_performance.ipynb** 
-
+```bash
+./run_all.sh
+```
+This will create a fully executed notebook at: 
+```bash
+notebook/executed_student_performance.ipynb 
+```
 
 ---
 
 ### 5️⃣ (Optional) Run in Google Colab
 
-```markdown
-
 1. Open Google Colab  
-2. Upload the main notebook:  **notebook/student_performance_ml_project.ipynb**
-3. Upload the **data_raw/** folder  
-4. Run all cells
-```
+2. Upload the main notebook: **notebook/student_performance_ml_project.ipynb**  
+3. Upload the **data_raw/** folder (or mount Google Drive)  
+4. Run all cells  
+
 All other folders (`data_processed`, `plots`, `models`, etc.) will be created automatically by the notebook.
 
 
@@ -208,11 +224,6 @@ All other folders (`data_processed`, `plots`, `models`, etc.) will be created au
   
 
 This project reflects depth of understanding, not just model usage.
-
-
-### Install required libraries:
-`bash pip install -r requirements.txt 
-
 
 ## 🚀 Future Work
 
