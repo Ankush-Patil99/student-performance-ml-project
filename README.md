@@ -1,4 +1,4 @@
-# 🎓 Student Performance Prediction — Complete Machine Learning Project  
+# 🎓 Student Performance Prediction
 *End-to-end regression pipeline with PCA, From-Scratch Algorithms, Boosting, SVM, and Stacking*
 
 This project predicts a student's **Performance Index** using a full machine learning workflow.  
@@ -21,7 +21,7 @@ The goal is to demonstrate **deep ML understanding**, not deployment — includi
 - [Project Structure](#-project-structure)
 - [Visualizations Included](#-visualizations-included)
 - [Results Summary](#-results-summary)
-- [How to Run the Project](#how-to-run-the-project)
+- [How to Run the Project](#-How-to-Run-the-Project)
 - [Key Learnings Demonstrated](#-key-learnings-demonstrated)
 - [Future Work](#-future-work)
 - [Author](#-author)
