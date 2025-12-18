@@ -97,8 +97,7 @@ To keep the repository clean and easy to navigate, files are grouped into logica
 ## 📈 Visualizations Included
 
 - Heatmap of correlations  
-- PCA explained variance plot  
-- Actual vs Predicted (best model)  
+- PCA explained variance plot    
 - Model comparison bar chart  
 - Error distribution plot  
 
